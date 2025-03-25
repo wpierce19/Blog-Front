@@ -1,0 +1,40 @@
+Page layout ideas:
+
+All Pages:
+-NavBar
+-Footer
+
+Main Page(Home):
+-Have a brief summary about the type of content that is posted on the blog
+-Include a NavBar to easily move pages
+-Include a Button with a hook such as
+    -Read More
+    -etc..
+-Cool picture that encapsulates the type of content on pages
+
+Post Page:
+-Have each blog post be shown vertically
+    -Include author
+    -Timestamp
+    -Snippet of text or Images
+
+Posts:
+-Have comments shown vertically
+    -Include username(email or actual username)
+    -Text body
+
+CSS:
+-Pick offtone colors (Not a pure white or etc...)
+-Proper spacing
+-Ensure proper reszing with no overlaping
+-Add detail to empty areas
+
+
+Order of completion:
+-Upload Back-End to PaaS
+    1. All jsx files (Do in order)
+    2. Gather color codes for details
+    3. Style using CSS
+
+FUTURE IDEAS:
+- Add email notification system
