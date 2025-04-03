@@ -1,14 +1,14 @@
 import { useEffect, useState} from "react";
-import {userParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import Markdown from "react-markdown";
 import { formatTimestamp } from "../utils";
-import "../styles/Post";
+import "../styles/Post.css";
 import Comments from "./Comments";
 import remarkGfm from "remark-gfm";
 import rehypeSanitize from "rehype-sanitize";
 
 const Post = () => {
-    const {postId} = userParams();
+    const {postId} = useParams();
     const [post, setPost] = useState(null);
     const [error, setError] = useState(null);
 
