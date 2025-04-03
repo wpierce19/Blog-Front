@@ -8,7 +8,7 @@ const Header = () => {
                 <ul>
                     <li>
                         <Link to="/" className="mainLogo">
-                            <MainLogo /> Choose name
+                            <img src={MainLogo} alt="Logo" /> Choose name
                         </Link>
                     </li>
                 </ul>
