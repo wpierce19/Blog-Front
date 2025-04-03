@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import MainLogo from "../assets/react"; //Find Logo to replace this
+import MainLogo from "../assets/react.svg"; //Find Logo to replace this
 
 const Header = () => {
     return (
