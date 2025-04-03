@@ -4,9 +4,9 @@ const Home = () => {
     return (
         <>
             <section className="container">
-                <h2>Welcome to the (Insert name here)!</h2>
+                <h2>Welcome to the Idea Forge!</h2>
                 <p>
-                    Insert descrptive paragraph about what the blogs about
+                    Where you can see posts about hot topics in the tech world!
                 </p>
                 <Link role="button" to="/posts">View the latest posts &nbsp;&#10140;</Link>
             </section>

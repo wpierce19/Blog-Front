@@ -33,6 +33,16 @@ const PostList = () => {
         fetchPosts();
     }, []);
 
+    const RedirectButton = () => (
+        <a 
+            href="https://blog-member.pages.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <button>Become a Member</button>
+        </a>
+    );
+
     if (error) return <section>{error}</section>
     return (
         <>
@@ -68,6 +78,11 @@ const PostList = () => {
                         <div aria-busy="true"></div>
                     )
                 }
+                <div className="redirect-button">
+                    <h3>Want to share your creative mind with the world?</h3>
+                    <h4>Become a member today!</h4>
+                    <RedirectButton />
+                </div>
             </section>
         </>
     );
