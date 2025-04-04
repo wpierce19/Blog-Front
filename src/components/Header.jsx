@@ -10,7 +10,7 @@ const Header = () => {
                 <ul>
                     <li>
                         <Link to="/" className="mainLogo">
-                            <img src={MainLogo} alt="Logo" /> Idea Forge
+                            <MainLogo /> Idea Forge
                         </Link>
                     </li>
                 </ul>
